@@ -1,0 +1,7 @@
+# H2 database
+*.mv.db
+*.trace.db
+
+# database folder
+backend/data/
+node_modules/

@@ -1,0 +1,124 @@
+.dashboard-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.page-heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 24px;
+}
+
+.loading-div {
+  text-align: center;
+  padding: 60px;
+  font-size: 16px;
+  color: #64748b;
+}
+
+.cards-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.summary-card {
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.blue-card { background-color: #3b82f6; }
+.green-card { background-color: #10b981; }
+.purple-card { background-color: #8b5cf6; }
+.orange-card { background-color: #f59e0b; }
+
+.card-label {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.85;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.card-value {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-card {
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.view-all-btn {
+  background-color: #f1f5f9;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+  cursor: pointer;
+}
+
+.view-all-btn:hover {
+  background-color: #e2e8f0;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expense-table th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.expense-table td {
+  padding: 12px 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #f8fafc;
+}
+
+.expense-table tr:last-child td {
+  border-bottom: none;
+}
+
+.expense-table tr:hover {
+  background-color: #f8fafc;
+}
+
+.category-badge {
+  background-color: #ede9fe;
+  color: #6d28d9;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .cards-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
